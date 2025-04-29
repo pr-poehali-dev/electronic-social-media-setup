@@ -99,3 +99,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+.electron-gradient {
+  background: linear-gradient(135deg, #001440 0%, #002366 100%);
+}
+
+.neon-text {
+  color: #00FFFF;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.7), 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.neon-border {
+  border-color: #00FFFF;
+  box-shadow: 0 0 5px rgba(0, 255, 255, 0.7);
+}
